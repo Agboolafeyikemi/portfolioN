@@ -1,0 +1,22 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  -webkit-text-size-adjust: 100%;
+  word-wrap: break-word;
+  font-feature-settings: "kern","liga","clig","calt";
+  -webkit-font-smoothing: antialiased;
+  font-kerning: normal;
+  text-rendering: optimizeLegibility;
+  box-sizing: inherit;
+  display: block;
+  margin: 0 auto;
+  max-width: 1024px;
+  min-height: calc(90vh - 70px);
+  padding: 0;
+  width: 100%;
+}

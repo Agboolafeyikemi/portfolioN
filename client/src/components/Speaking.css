@@ -1,0 +1,180 @@
+.speaking-container {
+  padding: 4rem 2rem 5rem 2rem;
+  text-align: center;
+  background-color: var(--bg-card);
+  border-radius: 12px;
+  margin: 2rem auto;
+  max-width: 1000px;
+  -webkit-text-size-adjust: 100%;
+  word-wrap: break-word;
+  font-feature-settings: "kern","liga","clig","calt";
+  -webkit-font-smoothing: antialiased;
+  font-kerning: normal;
+  text-rendering: optimizeLegibility;
+  box-sizing: inherit;
+}
+
+.speaking-container svg {
+  margin: 0 auto 1.5rem auto;
+  display: block;
+  flex-shrink: 0;
+}
+
+.speaking-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 auto 0.5rem auto;
+  color: var(--text-primary);
+  letter-spacing: -0.01em;
+  font-family: var(--font-sans);
+  line-height: 1.2;
+  text-align: center;
+  -webkit-text-size-adjust: 100%;
+  word-wrap: break-word;
+  font-feature-settings: "kern","liga","clig","calt";
+  -webkit-font-smoothing: antialiased;
+  font-kerning: normal;
+  text-rendering: optimizeLegibility;
+}
+
+.speaking-intro {
+  font-size: 1rem;
+  color: var(--text-primary);
+  margin: 0 auto 3rem auto;
+  line-height: 1.6;
+  font-family: var(--font-sans);
+  text-align: center;
+  -webkit-text-size-adjust: 100%;
+  word-wrap: break-word;
+  font-feature-settings: "kern","liga","clig","calt";
+  -webkit-font-smoothing: antialiased;
+  font-kerning: normal;
+  text-rendering: optimizeLegibility;
+}
+
+.talks-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  align-items: stretch;
+  -webkit-text-size-adjust: 100%;
+  word-wrap: break-word;
+  font-feature-settings: "kern","liga","clig","calt";
+  -webkit-font-smoothing: antialiased;
+  font-kerning: normal;
+  text-rendering: optimizeLegibility;
+  box-sizing: inherit;
+}
+
+.talk-card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: var(--bg-card);
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: left;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  -webkit-text-size-adjust: 100%;
+  word-wrap: break-word;
+  font-feature-settings: "kern","liga","clig","calt";
+  -webkit-font-smoothing: antialiased;
+  font-kerning: normal;
+  text-rendering: optimizeLegibility;
+  box-sizing: inherit;
+}
+
+.talk-card:hover {
+  transform: translateY(-2px);
+  background-color: rgba(30, 41, 59, 0.6);
+}
+
+.event-title {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  display: block;
+  margin-bottom: 0.75rem;
+  font-family: var(--font-sans);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-align: left;
+  -webkit-text-size-adjust: 100%;
+  word-wrap: break-word;
+  font-feature-settings: "kern","liga","clig","calt";
+  -webkit-font-smoothing: antialiased;
+  font-kerning: normal;
+  text-rendering: optimizeLegibility;
+}
+
+.talk-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin: 0 0 0.75rem 0;
+  font-family: var(--font-sans);
+  letter-spacing: -0.01em;
+  line-height: 1.4;
+  text-align: left;
+  flex-grow: 1;
+  -webkit-text-size-adjust: 100%;
+  word-wrap: break-word;
+  font-feature-settings: "kern","liga","clig","calt";
+  -webkit-font-smoothing: antialiased;
+  font-kerning: normal;
+  text-rendering: optimizeLegibility;
+}
+
+.talk-title a {
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: color 0.2s ease;
+  -webkit-text-size-adjust: 100%;
+  word-wrap: break-word;
+  font-feature-settings: "kern","liga","clig","calt";
+  -webkit-font-smoothing: antialiased;
+  font-kerning: normal;
+  text-rendering: optimizeLegibility;
+  box-sizing: inherit;
+}
+
+.talk-title a:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+.talk-description {
+  font-size: 0.9375rem;
+  color: var(--text-primary);
+  line-height: 1.6;
+  margin: 0;
+  font-family: var(--font-sans);
+  text-align: left;
+  flex-grow: 1;
+  -webkit-text-size-adjust: 100%;
+  word-wrap: break-word;
+  font-feature-settings: "kern","liga","clig","calt";
+  -webkit-font-smoothing: antialiased;
+  font-kerning: normal;
+  text-rendering: optimizeLegibility;
+}
+
+@media (max-width: 968px) {
+  .talks-container {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .speaking-container {
+    padding: 3rem 1.5rem;
+    margin: 1rem;
+  }
+
+  .speaking-heading {
+    font-size: 1.75rem;
+  }
+
+  .talks-container {
+    gap: 1.5rem;
+  }
+}
