@@ -82,7 +82,7 @@ body::before {
   position: fixed;
   transition: background .3s;
   z-index: 30;
-  background: radial-gradient(600px at 708px 473px, rgba(29, 78, 216, 0.15), transparent 80%);
+  background: radial-gradient(600px at var(--mouse-x, 708px) var(--mouse-y, 473px), rgba(29, 78, 216, 0.15), transparent 80%);
 }
 
 a {

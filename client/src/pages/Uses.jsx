@@ -203,12 +203,17 @@ function Uses() {
           </svg>
           <h3>On Repeat</h3>
           <p>Counting My Blessings — Seph Schlueter</p>
-          <div style={{ display: 'flex', gap: '4px', marginTop: '1rem', height: '50px', alignItems: 'flex-end' }}>
-            <div className="visualizer-bar" style={{ width: '100%', borderRadius: '2px', height: '40.0497%' }}></div>
-            <div className="visualizer-bar" style={{ width: '100%', borderRadius: '2px', height: '49.4647%' }}></div>
-            <div className="visualizer-bar" style={{ width: '100%', borderRadius: '2px', height: '70.6849%' }}></div>
-            <div className="visualizer-bar" style={{ width: '100%', borderRadius: '2px', height: '40.0248%' }}></div>
-            <div className="visualizer-bar" style={{ width: '100%', borderRadius: '2px', height: '43.5718%' }}></div>
+          <div style={{ display: 'flex', gap: '3px', marginTop: '1rem', height: '50px', alignItems: 'flex-end' }}>
+            <div className="visualizer-bar" style={{ width: '8px', borderRadius: '2px', height: '40.0497%' }}></div>
+            <div className="visualizer-bar" style={{ width: '8px', borderRadius: '2px', height: '49.4647%' }}></div>
+            <div className="visualizer-bar" style={{ width: '8px', borderRadius: '2px', height: '70.6849%' }}></div>
+            <div className="visualizer-bar" style={{ width: '8px', borderRadius: '2px', height: '40.0248%' }}></div>
+            <div className="visualizer-bar" style={{ width: '8px', borderRadius: '2px', height: '43.5718%' }}></div>
+            <div className="visualizer-bar" style={{ width: '8px', borderRadius: '2px', height: '55.2156%' }}></div>
+            <div className="visualizer-bar" style={{ width: '8px', borderRadius: '2px', height: '38.9248%' }}></div>
+            <div className="visualizer-bar" style={{ width: '8px', borderRadius: '2px', height: '62.3849%' }}></div>
+            <div className="visualizer-bar" style={{ width: '8px', borderRadius: '2px', height: '45.5718%' }}></div>
+            <div className="visualizer-bar" style={{ width: '8px', borderRadius: '2px', height: '52.0497%' }}></div>
           </div>
         </div>
 

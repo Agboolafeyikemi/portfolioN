@@ -1,10 +1,11 @@
 import { Link, useLocation } from 'react-router-dom'
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import './Header.css'
 
 function Header() {
   const location = useLocation()
   const logoRef = useRef(null)
+  const [isScrolled, setIsScrolled] = useState(false)
 
   useEffect(() => {
     // #region agent log
@@ -17,8 +18,19 @@ function Header() {
     // #endregion
   }, [])
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY
+      setIsScrolled(scrollPosition > 50)
+    }
+
+    window.addEventListener('scroll', handleScroll, { passive: true })
+    handleScroll() // Check initial scroll position
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
+
   return (
-    <header className="header">
+    <header className={`header ${isScrolled ? 'scroll' : ''}`}>
       <div className="container">
         <nav className="nav">
           <Link to="/" className="logo">
