@@ -34,8 +34,16 @@ function Work() {
       description: 'Launched internal Vue.js training platform with Vuex state management for progress tracking and interactive quiz modules, upskilling 500+ verification agents and accelerating onboarding efficiency by 70%.',
       technologies: ['Vue.js', 'Vuex', 'JavaScript', 'Jest', 'Cypress', 'REST']
     },
+     {
+      period: '2021 - 2022',
+      title: 'Software Engineer',
+      company: 'Alerzo',
+      companyUrl: 'https://www.alerzo.com/',
+      description: 'Established reusable React component system with Storybook. Scaled platform performance with Cloudflare CDN and React lazy loading, reducing time-to-interactive by 40%. Implemented AI product recommendations increasing average order value by 25%.',
+      technologies: ['React', 'Redux', 'Storybook', 'Cloudflare', 'REST APIs', 'GraphQL', 'Node.js', 'SQL', 'Next.js', 'SCSS', 'Jest']
+    }
     {
-      period: '2019 - 2022',
+      period: '2019 - 2021',
       title: 'Software Engineer',
       company: 'Konga',
       companyUrl: 'https://www.konga.com/',
