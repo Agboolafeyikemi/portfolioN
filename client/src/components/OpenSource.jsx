@@ -5,7 +5,7 @@ function OpenSource() {
     {
       title: "Reactime",
       description: "An all-in-one developer tool for React-based applications. Time-travel debugging, state visualization, and comprehensive insights into your React components.",
-      link: "https://www.reacti.me/",
+      link: "https://reactimetravel.github.io/reactime-website/",
       image: "/img/reactime.jpg",
       aspectRatio: "70.30201342281879%"
     },
