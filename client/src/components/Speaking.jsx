@@ -15,10 +15,22 @@ function Speaking() {
       link: "https://www.linkedin.com/feed/update/urn:li:activity:7403192682442878976/"
     },
     {
-      event: "Codebar Festival 2024",
+      event: "Codebar Festival 2025",
       title: "Debugging CSS",
       description: "Sharing techniques and tools for effectively debugging CSS issues in modern web development.",
       link: "https://www.youtube.com/watch?v=GmIU9fTLz1Q&list=PLfJjhFVOvESKwy2Kz2DS7gQD8Ty8iBNRA"
+    },
+     {
+  event: "Codebar Festival 2026",
+  title: "The Hard Parts of JavaScript",
+  description: "A practical deep dive into JavaScript's most misunderstood concepts, including closures, the event loop, async programming, scope, and prototypes, with real-world examples to help developers write more confident and reliable code.",
+  link: "https://festival.codebar.io/schedule.html"
+},
+      {
+      event: "Google Developer Group(GDG-London) 2026",
+      title: "MCP: Connecting AI to Everything",
+      description: "Explored how Model Context Protocol (MCP) enables AI assistants to securely connect to databases, APIs, Slack, Google Drive, and internal tools through a standardized protocol. The session demonstrated how MCP transforms AI from isolated chatbots into connected, action-taking systems, with practical examples of building production-ready AI workflows.",
+      link: "https://buildwithai.gdg.london/speakers"
     }
   ]
 
