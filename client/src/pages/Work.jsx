@@ -41,7 +41,7 @@ function Work() {
       companyUrl: 'https://www.alerzo.com/',
       description: 'Established reusable React component system with Storybook. Scaled platform performance with Cloudflare CDN and React lazy loading, reducing time-to-interactive by 40%. Implemented AI product recommendations increasing average order value by 25%.',
       technologies: ['React', 'Redux', 'Storybook', 'Cloudflare', 'REST APIs', 'GraphQL', 'Node.js', 'SQL', 'Next.js', 'SCSS', 'Jest']
-    }
+    },
     {
       period: '2019 - 2021',
       title: 'Software Engineer',
